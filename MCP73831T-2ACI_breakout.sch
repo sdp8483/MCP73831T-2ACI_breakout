@@ -1,0 +1,299 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mcp73831
+LIBS:MCP73831T-2ACI_breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP73831 U1
+U 1 1 5A67D563
+P 5650 3700
+F 0 "U1" H 5850 3400 60  0000 C CNN
+F 1 "MCP73831" H 5650 4000 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 5650 3700 60  0001 C CNN
+F 3 "" H 5650 3700 60  0001 C CNN
+	1    5650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5A67D60D
+P 5050 3500
+F 0 "D1" H 5050 3600 50  0000 C CNN
+F 1 "LED" H 5050 3400 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5050 3500 50  0001 C CNN
+F 3 "" H 5050 3500 50  0001 C CNN
+	1    5050 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5A67D63C
+P 5050 3900
+F 0 "R1" V 5130 3900 50  0000 C CNN
+F 1 "470" V 5050 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4980 3900 50  0001 C CNN
+F 3 "" H 5050 3900 50  0001 C CNN
+F 4 "NONE" H 5050 3900 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 5050 3900 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 5050 3900 60  0001 C CNN "Package"
+F 7 "NONE" H 5050 3900 60  0001 C CNN "Description"
+	1    5050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5A67D65B
+P 6250 3900
+F 0 "R2" V 6330 3900 50  0000 C CNN
+F 1 "2K" V 6250 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6180 3900 50  0001 C CNN
+F 3 "" H 6250 3900 50  0001 C CNN
+F 4 "NONE" H 6250 3900 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 6250 3900 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 6250 3900 60  0001 C CNN "Package"
+F 7 "NONE" H 6250 3900 60  0001 C CNN "Description"
+	1    6250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5A67D6A4
+P 6600 3700
+F 0 "C2" H 6625 3800 50  0000 L CNN
+F 1 "4.7uF" H 6625 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6638 3550 50  0001 C CNN
+F 3 "" H 6600 3700 50  0001 C CNN
+F 4 "NONE" H 6600 3700 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 6600 3700 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 6600 3700 60  0001 C CNN "Package"
+F 7 "NONE" H 6600 3700 60  0001 C CNN "Description"
+	1    6600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5A67D6E5
+P 4650 3700
+F 0 "C1" H 4675 3800 50  0000 L CNN
+F 1 "4.7uF" H 4675 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4688 3550 50  0001 C CNN
+F 3 "" H 4650 3700 50  0001 C CNN
+F 4 "NONE" H 4650 3700 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 4650 3700 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 4650 3700 60  0001 C CNN "Package"
+F 7 "NONE" H 4650 3700 60  0001 C CNN "Description"
+	1    4650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5A67DA2F
+P 6600 4150
+F 0 "#PWR01" H 6600 3900 50  0001 C CNN
+F 1 "GND" H 6600 4000 50  0000 C CNN
+F 2 "" H 6600 4150 50  0001 C CNN
+F 3 "" H 6600 4150 50  0001 C CNN
+	1    6600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J1
+U 1 1 5A67DA9B
+P 3600 3300
+F 0 "J1" H 3600 3400 50  0000 C CNN
+F 1 "Vin" H 3600 3200 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 3600 3300 50  0001 C CNN
+F 3 "" H 3600 3300 50  0001 C CNN
+F 4 "NONE" H 3600 3300 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 3600 3300 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 3600 3300 60  0001 C CNN "Package"
+F 7 "NONE" H 3600 3300 60  0001 C CNN "Description"
+	1    3600 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J2
+U 1 1 5A67DAF5
+P 3600 4300
+F 0 "J2" H 3600 4400 50  0000 C CNN
+F 1 "GND" H 3600 4200 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 3600 4300 50  0001 C CNN
+F 3 "" H 3600 4300 50  0001 C CNN
+F 4 "NONE" H 3600 4300 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 3600 4300 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 3600 4300 60  0001 C CNN "Package"
+F 7 "NONE" H 3600 4300 60  0001 C CNN "Description"
+	1    3600 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J3
+U 1 1 5A67DB38
+P 7300 3300
+F 0 "J3" H 7300 3400 50  0000 C CNN
+F 1 "+Vbat" H 7300 3200 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 7300 3300 50  0001 C CNN
+F 3 "" H 7300 3300 50  0001 C CNN
+F 4 "NONE" H 7300 3300 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 7300 3300 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 7300 3300 60  0001 C CNN "Package"
+F 7 "NONE" H 7300 3300 60  0001 C CNN "Description"
+	1    7300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J4
+U 1 1 5A67DC06
+P 7300 4100
+F 0 "J4" H 7300 4200 50  0000 C CNN
+F 1 "-Vbat" H 7300 4000 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 7300 4100 50  0001 C CNN
+F 3 "" H 7300 4100 50  0001 C CNN
+F 4 "NONE" H 7300 4100 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 7300 4100 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 7300 4100 60  0001 C CNN "Package"
+F 7 "NONE" H 7300 4100 60  0001 C CNN "Description"
+	1    7300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3700 6250 3700
+Wire Wire Line
+	6250 3700 6250 3750
+Wire Wire Line
+	5150 4100 5050 4100
+Wire Wire Line
+	5050 4100 5050 4050
+Wire Wire Line
+	5050 3750 5050 3650
+Wire Wire Line
+	5050 3300 5050 3350
+Wire Wire Line
+	3800 3300 5150 3300
+Connection ~ 5050 3300
+Wire Wire Line
+	4650 3550 4650 3300
+Connection ~ 4650 3300
+$Comp
+L GND #PWR02
+U 1 1 5A67E97C
+P 4650 4350
+F 0 "#PWR02" H 4650 4100 50  0001 C CNN
+F 1 "GND" H 4650 4200 50  0000 C CNN
+F 2 "" H 4650 4350 50  0001 C CNN
+F 3 "" H 4650 4350 50  0001 C CNN
+	1    4650 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3850 4650 4350
+Wire Wire Line
+	3800 4300 4650 4300
+Connection ~ 4650 4300
+Wire Wire Line
+	6150 3300 7100 3300
+Wire Wire Line
+	6600 3300 6600 3550
+Connection ~ 6600 3300
+Wire Wire Line
+	6150 4100 7100 4100
+Wire Wire Line
+	6250 4050 6250 4100
+Connection ~ 6250 4100
+Wire Wire Line
+	6600 3850 6600 4150
+Connection ~ 6600 4100
+$Comp
+L Conn_01x05 J5
+U 1 1 5A6DCF19
+P 3600 3800
+F 0 "J5" H 3600 4100 50  0000 C CNN
+F 1 "uUSB Breakout" H 3600 3500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3600 3800 50  0001 C CNN
+F 3 "" H 3600 3800 50  0001 C CNN
+F 4 "NONE" H 3600 3800 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 3600 3800 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 3600 3800 60  0001 C CNN "Package"
+F 7 "NONE" H 3600 3800 60  0001 C CNN "Description"
+	1    3600 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3600 3950 3600
+Wire Wire Line
+	3950 3600 3950 3300
+Connection ~ 3950 3300
+Wire Wire Line
+	3800 4000 3950 4000
+Wire Wire Line
+	3950 4000 3950 4300
+Connection ~ 3950 4300
+NoConn ~ 3800 3700
+NoConn ~ 3800 3800
+NoConn ~ 3800 3900
+$Comp
+L Battery_Cell BT1
+U 1 1 5A6DD357
+P 7000 3750
+F 0 "BT1" H 7100 3850 50  0000 L CNN
+F 1 "18650" H 7100 3750 50  0000 L CNN
+F 2 "lib_fp:18650_battery_holder_PCB_Pins" V 7000 3810 50  0001 C CNN
+F 3 "" V 7000 3810 50  0001 C CNN
+F 4 "NONE" H 7000 3750 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 7000 3750 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 7000 3750 60  0001 C CNN "Package"
+F 7 "NONE" H 7000 3750 60  0001 C CNN "Description"
+	1    7000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3550 7000 3300
+Connection ~ 7000 3300
+Wire Wire Line
+	7000 3850 7000 4100
+Connection ~ 7000 4100
+$EndSCHEMATC
